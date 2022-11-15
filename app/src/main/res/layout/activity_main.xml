@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Login"
+        android:paddingVertical="35dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:textColor="#000"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Username"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="30dp"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="#FF9C06"
+        android:text="Login"
+        android:textColor="#37474F" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Account yet? create One"
+        android:layout_marginHorizontal="30dp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
+
